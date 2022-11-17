@@ -1,0 +1,60 @@
+theme = "showfolio"
+languageCode = "en-us"
+baseurl = "https://example.com"
+title = "Home"
+
+
+[params]
+  name = "Showfolio Theme"
+  description = "Modern portfolio theme for your Hugo site."
+  author = "Tugi Gantulga"
+  authorEmail = "gantulga01@allegheny.com"
+  authorImage = "/photo.png"
+  autoDarkMode = true
+
+  copyright = "Copyright © 2021 - Tugi Gantulga · All rights reserved"
+  favicon = "favicon.ico"
+
+[params.homepage]
+  title = "Hey 👋 I'm Tugi!"
+  tagline = "Full Stack Developer"
+  description = "Develop functional websites and provide a valuable experience to customers."
+  contact = "https://www.linkedin.com/in/tugi/"
+
+[params.homepage.codepen]
+  username = "tuduun"
+  pens = ["SmartContractColorchanger", "LiveChatBox", "CryptoTokens", "PoWBlockchain"]
+
+[params.homepage.resume]
+  skills = ["Visual Design", "Product Development"]
+
+[[params.homepage.resume.work]]
+  name = "URECA"
+  role = "Software & Blockchain intern"
+  duration = "Jun 2022 - Sep 2022"
+
+[[params.homepage.resume.work]]
+  name = "Amazon"
+  role = "Sr. UX Designer"
+  duration = "Jan 2016 - Oct 2019"
+
+[[params.homepage.resume.courses]]
+  name = "Design Principles"
+  provider = "UX Academy"
+  duration = "Nov 2019 - Jan 2020"
+
+[params.homepage.social]
+  twitter = "https://twitter.com/"
+  linkedin = "https://linkedin.com/in/tugi"
+  github = "https://github.com/tuduun"
+  medium = "https://medium.com/"
+  reddit = "https://reddit.com/"
+  dribbble = "https://dribbble.com/"
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
