@@ -23,6 +23,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build with hugo
         run: |
+          sudo apt-get update
           sudo apt-get install hugo
           npm install -g postcss-cli
           ls
