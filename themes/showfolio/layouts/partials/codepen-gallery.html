@@ -5,17 +5,24 @@
     <img
       class="rounded object-cover w-full h-full"
       loading="lazy"
-      src="https://codepen.io/{{ $username }}/pen/{{ $val }}/image/small.png"
+      src="https://github.com/{{ $username }}/{{ $val }}/image/small.png"
     />
     <div
       class="absolute top-0 left-0 rounded w-full h-full bg-black bg-opacity-30 grid place-items-center opacity-0 hover:opacity-100 transition-opacity duration-200"
     >
       <a
         class="px-6 py-2 rounded-full bg-black text-white"
-        href="https://codepen.io/{{ $username }}/pen/{{ $val }}"
+        href="https://github.com/{{ $username }}/{{ $val }}"
         target="_blank"
         rel="noopener noreferrer"
-        >View in Codepen</a
+        >View in Github</a
+      >
+      <a
+        class="px-6 py-2 rounded-full bg-black text-white"
+        href="https://tuduun.github.io/{{ $val }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        >View Website</a
       >
     </div>
   </div>
