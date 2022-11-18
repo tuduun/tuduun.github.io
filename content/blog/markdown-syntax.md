@@ -1,36 +1,17 @@
 ---
-author: "Hugo Authors"
-title: "Markdown Syntax Guide"
-description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-tags: ["markdown", "css", "html"]
+author: "Tugi"
+title: "Decentralized Color Changer"
+description: "A website project that sets color when someone changes it on a decentralized web."
+tags: ["markdown", "css", "html", "smartcontract"]
 date: 2021-04-24
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-
+This is the first project ever that I have ever worked on something decentralized. The website contains a solidity smart contract and its ABI. 
 <!--more-->
 
-## Headings
+## Smart Contract
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
-
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+The contract is written in solidity, and the contract consists of two major functions that are to set the new color and to get the current color from the decentralized web, respectively. Moreover, it uses mappings to store the associative array data.
 
 ## Blockquotes
 
@@ -67,17 +48,22 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 #### Code block with backticks
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
+```s
+pragma solidity ^0.8.1;
+
+contract colorKOTH {
+
+    mapping(string => string) private color;
+
+    function setColor(string memory _color, string memory _element) public  {
+        color[_element] = _color;
+    }
+
+    function getColor(string memory _element) public view returns (string memory) {
+        return color[_element];
+    }
+
+}
 ```
 
 #### Code block indented with four spaces
