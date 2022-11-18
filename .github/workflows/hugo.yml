@@ -19,6 +19,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build with hugo
         run: |
+          ls -la
           sudo apt-get install hugo
           npm install -g postcss-cli
           npm i && hugo -D --gc
@@ -26,7 +27,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1.0.4
         with:
           name: public
-          path: public
+          path: ./public
 
   # Deployment job
   deploy:
