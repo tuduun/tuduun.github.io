@@ -9,8 +9,8 @@ title = "Home"
   description = "Modern portfolio theme for your Hugo site."
   author = "Tugi Gantulga"
   authorEmail = "gantulga01@allegheny.com"
-  authorImage = "/photo.png"
-  autoDarkMode = true
+  authorImage = "/photo.jpeg"
+  autoDarkMode = false
 
   copyright = "Copyright © 2021 - Tugi Gantulga · All rights reserved"
   favicon = "favicon.ico"
@@ -23,7 +23,7 @@ title = "Home"
 
 [params.homepage.codepen]
   username = "tuduun"
-  pens = ["SmartContractColorchanger", "CryptoTokens", "LiveChatBox", "PoWBlockchain"]
+  pens = ["SmartContractColorchanger", "CryptoTokens", "LiveChatBox", "PoWBlockchain","SimonGame"]
 
 [params.homepage.resume]
   skills = ["Visual Design", "Product Development"]
@@ -47,9 +47,6 @@ title = "Home"
   twitter = "https://twitter.com/"
   linkedin = "https://linkedin.com/in/tugi"
   github = "https://github.com/tuduun"
-  medium = "https://medium.com/"
-  reddit = "https://reddit.com/"
-  dribbble = "https://dribbble.com/"
 
 [build]
   writeStats = true
