@@ -23,7 +23,7 @@ title = "Home"
 
 [params.homepage.codepen]
   username = "tuduun"
-  pens = ["SmartContractColorchanger", "CryptoTokens", "LiveChatBox", "PoWBlockchain","SimonGame"]
+  pens = ["SmartContractColorchanger", "CryptoTokens", "LiveChatBox", "PoWBlockchain", "SimonGame"]
 
 [params.homepage.resume]
   skills = ["Visual Design", "Product Development"]
