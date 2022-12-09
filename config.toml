@@ -18,7 +18,7 @@ title = "Home"
 [params.homepage]
   title = "Hey 👋 I'm Tugi!"
   tagline = "Full Stack Developer"
-  description = "Develop functional websites and provide a valuable experience to customers."
+  description = "A student who develops functional websites to provide valuable experience to customers."
   contact = "https://www.linkedin.com/in/tugi/"
 
 [params.homepage.codepen]
@@ -26,7 +26,7 @@ title = "Home"
   pens = ["SmartContractColorchanger", "CryptoTokens", "LiveChatBox", "PoWBlockchain", "SimonGame"]
 
 [params.homepage.resume]
-  skills = ["Visual Design", "Product Development"]
+  skills = ["Smart Contract", "Web Development"]
 
 [[params.homepage.resume.work]]
   name = "URECA"
@@ -34,14 +34,14 @@ title = "Home"
   duration = "Jun 2022 - Sep 2022"
 
 [[params.homepage.resume.work]]
-  name = "Amazon"
-  role = "Sr. UX Designer"
-  duration = "Jan 2016 - Oct 2019"
+  name = "Pelletier Library"
+  role = "Front Desk"
+  duration = "Sep 2022 - Present"
 
 [[params.homepage.resume.courses]]
-  name = "Design Principles"
-  provider = "UX Academy"
-  duration = "Nov 2019 - Jan 2020"
+  name = "Web Development"
+  provider = "Allegheny College"
+  duration = "Feb 2022 - May 2022"
 
 [params.homepage.social]
   twitter = "https://twitter.com/"
