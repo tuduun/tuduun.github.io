@@ -43,6 +43,11 @@ title = "Home"
   provider = "Allegheny College"
   duration = "Feb 2022 - May 2022"
 
+[[params.homepage.resume.courses]]
+  name = "Computer Organization"
+  provider = "Allegheny College"
+  duration = "Aug 2022 - Dec 2022"
+
 [params.homepage.social]
   twitter = "https://twitter.com/"
   linkedin = "https://linkedin.com/in/tugi"
