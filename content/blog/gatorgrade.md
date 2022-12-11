@@ -1,15 +1,12 @@
 ---
 author: "Hugo Authors"
-title: "GatorGrader an Automatic Grading System"
-date: 2021-04-24
+title: "# GatorGrade: A Python Tool to Implement GatorGrader"
+date: 2022-04-24
 description: "Made for people who want to create a checklist "
 tags: ["emoji"]
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways.
-
 <!--more-->
-# GatorGrade: A Python Tool to Implement GatorGrader
 
 GatorGrade is a Python tool that executes GatorGrader, an automatic grading tool
 that can be used to check assignments through user-created checks. GatorGrade is
