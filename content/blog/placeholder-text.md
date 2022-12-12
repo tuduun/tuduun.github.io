@@ -1,8 +1,8 @@
 ---
 author: "Hugo Authors"
-title: "Placeholder Text"
+title: "The Simon Game"
 date: 2021-04-24
-description: "Lorem Ipsum Dolor Si Amet"
+description: "A simple game made in JS!"
 tags: ["markdown", "text"]
 featured_image: /featured-placeholder.jpg
 ---

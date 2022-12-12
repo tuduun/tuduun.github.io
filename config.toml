@@ -26,7 +26,7 @@ title = "Home"
   pens = ["SmartContractColorchanger", "CryptoTokens", "LiveChatBox", "PoWBlockchain", "SimonGame"]
 
 [params.homepage.resume]
-  skills = ["Smart Contract", "Web Development"]
+  skills = ["Smart Contracts", "Web Development"]
 
 [[params.homepage.resume.work]]
   name = "URECA"

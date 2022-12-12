@@ -1,6 +1,6 @@
 ---
 author: "Hugo Authors"
-title: "# GatorGrade: A Python Tool to Implement GatorGrader"
+title: "GatorGrade: A Python Tool to Implement GatorGrader"
 date: 2022-04-24
 description: "Made for people who want to create a checklist "
 tags: ["emoji"]
