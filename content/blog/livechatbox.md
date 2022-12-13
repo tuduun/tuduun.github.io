@@ -5,6 +5,7 @@ date: 2022-05-04
 description: Chat with people who are on the same server!
 math: true
 ---
+description: Chat with people who are on the same server!
 
 ## About
 <!--more-->

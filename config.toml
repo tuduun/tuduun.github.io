@@ -13,7 +13,7 @@ title = "Home"
   autoDarkMode = false
 
   copyright = "Copyright © 2021 - Tugi Gantulga · All rights reserved"
-  favicon = "favicon.ico"
+  favicon = "star.ico"
 
 [params.homepage]
   title = "Hey 👋 I'm Tugi!"
