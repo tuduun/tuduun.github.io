@@ -3,7 +3,6 @@ languageCode = "en-us"
 baseurl = "/"
 title = "Home"
 
-
 [params]
   name = "Showfolio Theme"
   description = "Modern portfolio theme for your Hugo site."
@@ -13,7 +12,7 @@ title = "Home"
   autoDarkMode = false
 
   copyright = "Copyright © 2021 - Tugi Gantulga · All rights reserved"
-  favicon = "favicon.ico"
+  favicon = "star.ico"
 
 [params.homepage]
   title = "Hey 👋 I'm Tugi!"
@@ -32,7 +31,6 @@ title = "Home"
   name = "URECA"
   role = "Software & Blockchain intern"
   duration = "Jun 2022 - Sep 2022"
-
 [[params.homepage.resume.work]]
   name = "Pelletier Library"
   role = "Front Desk"
