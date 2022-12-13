@@ -2,10 +2,10 @@
 author: "Hugo Authors"
 title: "GatorGrade: A Python Tool to Implement GatorGrader"
 date: 2022-04-24
-description: "Made for people who want to create a checklist "
+description: "Made for people who want to grade some check!"
 tags: ["emoji"]
 ---
-
+Made for people who want to grade some check!
 <!--more-->
 
 GatorGrade is a Python tool that executes GatorGrader, an automatic grading tool

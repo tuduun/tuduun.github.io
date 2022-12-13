@@ -5,10 +5,10 @@ date: 2022-05-04
 description: Chat with people who are on the same server!
 math: true
 ---
-description: Chat with people who are on the same server!
+Chat with people who are on the same server!
+<!--more-->
 
 ## About
-<!--more-->
 Inspired by the Twitch Live chat where people from on any device can make a username and can immediately chat with other people who are also on the same page but on different devices!
 
 ## How to run
