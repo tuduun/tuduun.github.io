@@ -12,7 +12,7 @@ const Navbar = () => {
         <img
           src={parthmittal}
           alt="Tuguldur Gantulga"
-          className="w-[80px] h-[80px]"
+          className="w-[180px] h-[80px]"
         />
       </a>
 
