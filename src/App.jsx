@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import styles from "./style";
 import {
   Navbar,
-  Hero,
   Education,
   SkillsAndExperience,
   ExtraCurricular,
@@ -16,59 +15,62 @@ import {
   Achievements,
 } from "./components";
 
+const Hero = React.lazy(() => import("./components/Hero"));
+
 const App = () => {
-  const [isLoading,setIsLoading] = React.useState(true);
+  const [isLoading, setIsLoading] = React.useState(true);
 
-  React.useEffect(()=>{
-    setTimeout(()=>{setIsLoading(false)},1600);
-  },[])
+  React.useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1600);
+  }, []);
 
-  if(isLoading){
+  if (isLoading) {
     return (
-      <div className="bg-primary w-full overflow-hidden">
-        <Loading/>
+      <div className="bg-black w-full h-screen overflow-hidden">
+        <Loading />
       </div>
-    )
-  }else{
+    );
+  } else {
     return (
       // A div to wrap the entire application
-    <div className="bg-primary w-full overflow-hidden">
-      <motion.section
-        initial={{ x: -100, opacity: 0.25 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Navbar />
+      <div className="bg-primary w-full overflow-hidden">
+        <motion.section
+          initial={{ x: -5, opacity: 0 }}
+          animate={{ x: 10, opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Navbar />
+            </div>
           </div>
-        </div>
 
-        <div className={`bg-primary ${styles.flexStart}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Hero />
+          <div className={`bg-primary ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Hero />
+            </div>
           </div>
-        </div>
 
-        <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
-          <div className={`${styles.boxWidth}`}>
-            <SkillsAndExperience />
-            <Education />
+          <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+            <div className={`${styles.boxWidth}`}>
+              <SkillsAndExperience />
+              <Education />
+            </div>
           </div>
-        </div>
-        <Achievements />
-        <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
-          <div className={`${styles.boxWidth}`}>
-            <Projects />
-            <BlogPosts enabled={false} />
-            <OpenSource />
-            <ExtraCurricular />
+          <Achievements />
+          <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+            <div className={`${styles.boxWidth}`}>
+              <Projects />
+              <BlogPosts enabled={false} />
+              <OpenSource />
+              <ExtraCurricular />
+            </div>
           </div>
-        </div>
-        <Footer />
-      </motion.section>
-    </div>
-
+          <Footer />
+        </motion.section>
+      </div>
     );
   }
 };
