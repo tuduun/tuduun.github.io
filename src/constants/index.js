@@ -1209,7 +1209,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
-    tagLine: "Upcoming MTS @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
+    name: "Tuguldur G.",
+    tagLine: "Software Engineer | Economist | Allegheny College Alumni",
+    intro: "A life long knowledge seeker and technology enthusiast."
 }
