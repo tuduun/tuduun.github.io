@@ -204,8 +204,17 @@
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  line-height: 32px;     /* fallback */
-  max-height: 64px;      /* fallback */
+  line-height: 32px; /* fallback */
+  max-height: 64px; /* fallback */
   -webkit-line-clamp: 2; /* number of lines to show */
   -webkit-box-orient: vertical;
+}
+
+.lottie-container {
+  min-height: 75vh; /* Set a minimum height */
+  min-width: 32vw; /* Set a minimum width */
+  height: 90%; /* Takes 90% of the parent's height */
+  width: 85%; /* Takes 85% of the parent's width */
+  position: relative; /* Relative positioning for context */
+  z-index: 5; /* Stacking context */
 }
