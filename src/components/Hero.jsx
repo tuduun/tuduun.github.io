@@ -5,7 +5,6 @@ import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
 import { useEffect, useState } from "react";
 
-
 // lottie config
 const defaultOptions = {
   loop: true,
@@ -17,7 +16,6 @@ const defaultOptions = {
 };
 
 const Hero = () => {
-  
   return (
     <section
       id="home"
@@ -49,8 +47,8 @@ const Hero = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-            <div className="lottie-container">
-            <PreloadedLottie {...defaultOptions} />
+        <div className="lottie-container">
+          <PreloadedLottie {...defaultOptions} />
         </div>
         <div className="absolute z-[1] w-[50%] h-[50%] rounded-full bottom-40 white__gradient"></div>
       </div>

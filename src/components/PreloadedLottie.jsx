@@ -5,7 +5,7 @@ import animationData from '../lotties/person-coding.json';  // Make sure the pat
 const PreloadedLottie = () => {
   return (
     <div>
-      <Lottie animationData={animationData} play style={{ width: 'auto', height: 'auto' }} />
+      <Lottie animationData={animationData} play style={{ width: '85%', height: 'auto' }} />
     </div>
   );
 };
