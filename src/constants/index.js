@@ -220,30 +220,11 @@ export const skills = [
   {
     title: "Programming Languages",
     items: [
-      {
-        id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
+     
       {
         id: "pl-2",
         icon: SiPython,
         name: "Python",
-      },
-      {
-        id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
       },
       {
         id: "pl-6",
@@ -254,16 +235,6 @@ export const skills = [
         id: "pl-7",
         icon: SiC,
         name: "C",
-      },
-      {
-        id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
       },
       {
         id: "pl-10",
@@ -281,14 +252,19 @@ export const skills = [
     title: "Frameworks/Libraries",
     items: [
       {
+        id: "pl-8",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+      {
+        id: "pl-9",
+        icon: DiCss3,
+        name: "CSS",
+      },
+      {
         id: "f-1",
         icon: SiDjango,
         name: "Django",
-      },
-      {
-        id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
       },
       {
         id: "f-3",
@@ -301,35 +277,15 @@ export const skills = [
         name: "Bootstrap",
       },
       {
-        id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
         id: "f-6",
         icon: SiJquery,
         name: "jQuery",
-      },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
       },
     ],
   },
   {
     title: "Tools",
     items: [
-      {
-        id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
-      },
       {
         id: "t-2",
         icon: SiMysql,
@@ -354,11 +310,6 @@ export const skills = [
         id: "t-6",
         icon: AiFillGithub,
         name: "GitHub",
-      },
-      {
-        id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
       },
       {
         id: "t-8",
