@@ -123,19 +123,19 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "Allegheny College",
+    degree: "Bachelor of Science in Computer Science",
+    duration: "Aug 2020 - May 2024",
+    content1: "GPA: 3.6",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: nitk,
+    title: "Allegheny College",
+    degree: "Bachelor of Arts in Economics",
+    duration: "Aug 2020 - May 2024",
+    content1: "GPA: 3.6",
+
   },
 ];
 
@@ -327,20 +327,20 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "Food Truck Association of Canada",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "https://foodtrucksofcanada.org/",
     positions: [
       {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
+        title: "Full-stack Engineer, Intern",
+        duration: "Jan 2024 - May 2023",
         content: [
           {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Led the development of a dynamic web application that connects food trucks with businesses hosting events, featuring a real-time feed for new business opportunities",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "• Implemented a comprehensive user authentication system for food trucks using Django and PostgreSQL",
             link: ""
           }
         ],
@@ -348,71 +348,88 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
+    organisation: "Allegheny College",
     logo: averlon,
-    link: "https://averlon.ai/",
+    link: "https://www.cis.allegheny.edu/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Department Software Engineer",
+        duration: "Jan 2024 - May 2024",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
             link: ""
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "Designed an interactive Pygame application to teach high school students coding fundamentals through engaging and simplified computer science concepts, fostering practical learning and comprehension",
             link: ""
           }
+        ],
+      },
+      {
+        title: "Teaching Assistant",
+        duration: "Sep 2023 - Jan 2024",
+        content: [
+          {
+            text: "• Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Full-Stack Engineer, Intern",
+        duration: "May 2021 - Aug 2022",
+        content: [
+          {
+            text: "• Created GatorAdvisor, an interactive visual roadmap and a dashboard for the computer science department’s all major and minor programs to make it easier to understand and to reduce student course planning time.",
+            link: "",
+          },
+        ],
+      },
+      {
+        title: "Pelletier Librayr HelpDesk",
+        duration: "Aug 2022 - Aug 2023",
+        content: [
+          {
+            text: "Scanned books in and out for patreons, was responsible for opening and closing the library",
+            link: "",
+          },
         ],
       },
     ],
   },
   {
-    organisation: "IRIS, NITK",
+    organisation: "Bull Moose Marketing",
     logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    link: "https://www.linkedin.com/company/bullmoosemarketing/posts/?feedView=all",
     positions: [
       {
-        title: "Tech Lead",
+        title: "Software Engineer, Intern",
         duration: "Apr 2023 - Apr 2024",
         content: [
           {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+            text: "Developed a web scraping tool integrating WordPress with Google Maps API, enhancing place listing accuracy and enabling automated content updates using Node.js, Google Maps API, Postman, and WordPress",
             link: "",
           },
           {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
+            text: "Engineered a full-stack Node.js application with RESTful API endpoints in Express for dynamic client-server interactions, data processing, scraping pages using Selenium, and generating downloadable JSON reports.",
             link: "",
           },
         ],
       },
+    ],
+  },
+  {
+    organisation: "URECA LLC",
+    logo: iris,
+    link: "Ureca.com",
+    positions: [
       {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
+        title: "Blockchain Engineer, Intern",
+        duration: "May 2022 - Aug 2022",
         content: [
           {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "•	Spearheaded the minting of 5000 test ARC69 tokens, a pivotal component now driving URECA's carbon credit marketplace, which is the first of its kind to democratize climate action investments",
             link: "",
           },
         ],
@@ -624,43 +641,38 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
+    title: "Research Paper: \n How do macroeconomic indicators affect Layoffs?",
     github: "https://github.com/ayush4345/Comicify.ai",
     link: "https://comicify-ai.vercel.app/",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "• Econometric research that determines the influence of macroeconomic variables on Layoff trends <br> using Vector Autoregression (VAR) models and impulse response (IRF) analysis to assess the impact of interest rate, inflation, and industrial production on layoffs, contributing to strategic business planning",
     stack: [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "Stata"
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "TailwindCSS"
+        name: "Tableau"
       },
       {
         id: "icon-3",
         icon: SiOpenai,
-        name: "OpenAI"
+        name: "Python"
       },
       {
         id: "icon-4",
         icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        name: "Testing Stuff"
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
+    title: "Statistical Analysis: How do Household metrics affect Alcohol consumption?",
     github: "https://github.com/mittal-parth/GreenTrust",
     link: "https://green-trust-fantom.netlify.app/",
     image: greentrust,
@@ -701,25 +713,31 @@ export const projects = [
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
+    title: "Live-Chat-Box",
+    github: "https://github.com/tuduun/LiveChatBox",
+    link: "https://tuduun.github.io/LiveChatBox/",
     image: chargeswap,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "Real-time chat application powered by Express and WebSockets creating scalable user management, and a seamless chatting experience",
     stack: [
       {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "JavaScript"
       },
       {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        id: "icon-2",
+        icon: AiFillHtml5,
+        name: "HTML"
       },
       {
         id: "icon-4",
+        icon: DiCss3,
+        name: "CSS"
+      },
+     
+      {
+        id: "icon-11",
         icon: SiSolidity,
         name: "Solidity"
       },
@@ -1054,8 +1072,8 @@ export const stats = [
 
 export const extraCurricular = [
   {
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
+    organisation: "Ultimate Frisbee Club",
+    title: "Executive Board Member",
     duration: "December 2021 - Present",
     content: [
       {
