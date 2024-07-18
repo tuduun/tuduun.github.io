@@ -1,4 +1,10 @@
 import {
+  alleghenycollege,
+  alleghenycollege1,
+  college,
+  ureca,
+  bmm,
+  ftac,
   nitk,
   cluboard,
   cash_flow,
@@ -122,7 +128,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: alleghenycollege1,
     title: "Allegheny College",
     degree: "Bachelor of Science in Computer Science",
     duration: "Aug 2020 - May 2024",
@@ -130,7 +136,7 @@ export const educationList = [
   },
   {
     id: "education-2",
-    icon: nitk,
+    icon: alleghenycollege1,
     title: "Allegheny College",
     degree: "Bachelor of Arts in Economics",
     duration: "Aug 2020 - May 2024",
@@ -328,7 +334,7 @@ export const skills = [
 export const experiences = [
   {
     organisation: "Food Truck Association of Canada",
-    logo: oracle,
+    logo: ftac,
     link: "https://foodtrucksofcanada.org/",
     positions: [
       {
@@ -336,11 +342,11 @@ export const experiences = [
         duration: "Jan 2024 - May 2023",
         content: [
           {
-            text: "Led the development of a dynamic web application that connects food trucks with businesses hosting events, featuring a real-time feed for new business opportunities",
+            text: "• Developed a web app linking food trucks with event-hosting businesses, featuring a real-time feed for new opportunities.",
             link: "",
           },
           {
-            text: "• Implemented a comprehensive user authentication system for food trucks using Django and PostgreSQL",
+            text: "• Implemented user authentication for food trucks using Django and PostgreSQL.",
             link: ""
           }
         ],
@@ -349,7 +355,7 @@ export const experiences = [
   },
   {
     organisation: "Allegheny College",
-    logo: averlon,
+    logo: alleghenycollege1,
     link: "https://www.cis.allegheny.edu/",
     positions: [
       {
@@ -357,11 +363,11 @@ export const experiences = [
         duration: "Jan 2024 - May 2024",
         content: [
           {
-            text: "Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
+            text: "• Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
             link: ""
           },
           {
-            text: "Designed an interactive Pygame application to teach high school students coding fundamentals through engaging and simplified computer science concepts, fostering practical learning and comprehension",
+            text: "• Designed an interactive Pygame app to teach high school students coding fundamentals through engaging, simplified concepts.",
             link: ""
           }
         ],
@@ -400,7 +406,7 @@ export const experiences = [
   },
   {
     organisation: "Bull Moose Marketing",
-    logo: iris,
+    logo: bmm,
     link: "https://www.linkedin.com/company/bullmoosemarketing/posts/?feedView=all",
     positions: [
       {
@@ -421,7 +427,7 @@ export const experiences = [
   },
   {
     organisation: "URECA LLC",
-    logo: iris,
+    logo: ureca,
     link: "Ureca.com",
     positions: [
       {

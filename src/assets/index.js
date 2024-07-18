@@ -47,8 +47,21 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import bmm from "./bmm.png"
+import ftac from "./ftac.png"
+import ureca from "./ureca.png"
+import college from "./college.jpg"
+import alleghenycollege1 from "./alleghenycollege1.png"
+import alleghenycollege from "./alleghenycollege.png"
+
 
 export {
+  alleghenycollege,
+  alleghenycollege1,
+  bmm,
+  ureca,
+  ftac,
+  college,
   quotes,
   robot,
   send,
