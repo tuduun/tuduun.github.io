@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { WavyBackground } from "./components/ui/wavy-background.tsx";
+import { TracingBeam } from "./components/ui/tracing-beam.tsx";
 
 import styles from "./style";
 import {
@@ -29,7 +31,18 @@ const App = () => {
   if (isLoading) {
     return (
       <div className="bg-black w-full h-screen overflow-hidden">
-        <Loading />
+        <WavyBackground
+          className="your-class-name" // optional, add any custom classes you need
+          containerClassName="your-container-class" // optional, add any custom container classes you need
+          colors={["#38bdf8", "#818cf8", "#c084fc", "#e879f9", "#22d3ee"]} // optional, custom colors
+          waveWidth={50} // optional, custom wave width
+          backgroundFill="black" // optional, custom background fill color
+          blur={10} // optional, custom blur amount
+          speed="fast" // optional, wave speed, "slow" or "fast"
+          waveOpacity={0.5} // optional, custom wave opacity
+        >
+          <Loading />
+        </WavyBackground>
       </div>
     );
   } else {
@@ -41,34 +54,41 @@ const App = () => {
           animate={{ x: 10, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <div className={`${styles.boxWidth}`}>
-              <Navbar />
+          <TracingBeam className="relative z-40">
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Navbar />
+              </div>
             </div>
-          </div>
+            <div className={`bg-primary ${styles.flexStart}`}>
+              <div className={`${styles.boxWidth}`}>
+                <Hero />
+              </div>
+            </div>
 
-          <div className={`bg-primary ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
-              <Hero />
+            <div
+              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
+            >
+              <div className={`${styles.boxWidth}`}>
+                <SkillsAndExperience />
+                <Education />
+              </div>
             </div>
-          </div>
-
-          <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
-            <div className={`${styles.boxWidth}`}>
-              <SkillsAndExperience />
-              <Education />
+            <div className={`${styles.paddingX} sm:px-12 px-16`}>
+              <Achievements/>
             </div>
-          </div>
-          <Achievements />
-          <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
-            <div className={`${styles.boxWidth}`}>
-              <Projects />
-              <BlogPosts enabled={false} />
-              <OpenSource />
-              <ExtraCurricular />
+            <div
+              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
+            >
+              <div className={`${styles.boxWidth}`}>
+                <Projects />
+                <BlogPosts enabled={false} />
+                <OpenSource />
+                <ExtraCurricular />
+              </div>
             </div>
-          </div>
-          <Footer />
+            <Footer />
+          </TracingBeam>
         </motion.section>
       </div>
     );
