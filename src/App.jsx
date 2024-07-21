@@ -34,7 +34,8 @@ const App = () => {
         <WavyBackground
           className="your-class-name" // optional, add any custom classes you need
           containerClassName="your-container-class" // optional, add any custom container classes you need
-          colors={["#38bdf8", "#818cf8", "#c084fc", "#e879f9", "#22d3ee"]} // optional, custom colors
+          colors={["#00B4DB", "#0083B0", "#005F99", "#003F7D", "#002D62"]} // ocean color, which matches with the website theme
+
           waveWidth={50} // optional, custom wave width
           backgroundFill="black" // optional, custom background fill color
           blur={10} // optional, custom blur amount
