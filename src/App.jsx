@@ -74,7 +74,7 @@ const App = () => {
                 <Education />
               </div>
             </div>
-            <div className={`${styles.paddingX} sm:px-12 px-16`}>
+            <div className={` ${styles.paddingX} sm:px-12 px-16`}>
               <Achievements/>
             </div>
             <div

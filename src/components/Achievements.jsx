@@ -50,7 +50,7 @@ const Achievements = () => {
           </h1>
         </div>
       </div>
-      <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full blue__gradient bottom-40" />
+      <div className="absolute z-[0] w-[20%] h-[20%] -left-[50%] rounded-full blue__gradient bottom-40" />
       <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
         <div className={`${styles.boxWidth} overflow-hidden`}>
           <div className="my-20">
