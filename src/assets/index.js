@@ -53,9 +53,16 @@ import ureca from "./ureca.png"
 import college from "./college.jpg"
 import alleghenycollege1 from "./alleghenycollege1.png"
 import alleghenycollege from "./alleghenycollege.png"
-
+import paper from "./paper.png"
+import twitch from "./twittch.jpg"
+import algorithmology from "./algorithmology.png"
+import gatoreducator from "./gatoreducator.png"
 
 export {
+  algorithmology,
+  gatoreducator,
+  paper,
+  twitch,
   alleghenycollege,
   alleghenycollege1,
   bmm,
