@@ -5,6 +5,17 @@ import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
 import { useEffect, useState } from "react";
 
+
+const AboutMeComponent = ({ name }) => {
+  const nameParts = name.split(' ');
+
+  return (
+    <span className="text-gradient">
+      {nameParts[0]}<br />{nameParts[1]}
+    </span>
+  );
+};
+
 // lottie config
 const defaultOptions = {
   loop: true,
