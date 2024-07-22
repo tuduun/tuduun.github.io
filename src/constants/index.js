@@ -1,4 +1,8 @@
 import {
+  gatoreducator,
+  algorithmology,
+  paper,
+  twitch,
   alleghenycollege,
   alleghenycollege1,
   college,
