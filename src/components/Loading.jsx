@@ -2,7 +2,7 @@ import styles from "../style";
 import { motion } from "framer-motion";
 import { parthmittal } from "../assets";
 
-const Loading = ({isLoading}) => {
+const Loading = () => {
     return(
         <motion.div
             id="loading"
