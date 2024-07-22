@@ -82,7 +82,10 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiTableau,
+  SiStreamlit,
+  SiRstudio
 } from "react-icons/si";
 
 import {
@@ -97,6 +100,9 @@ import {
 import {
   FaGolang
 } from "react-icons/fa6";
+
+import { RiFileExcel2Line } from "react-icons/ri";
+
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
