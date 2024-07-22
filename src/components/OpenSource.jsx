@@ -104,7 +104,7 @@ const OpenSource = () => {
 
       <div className="container px-2 py-5 mx-auto mb-8">
         <div class="flex items-center justify-center">
-          <div class="flex items-center p-1 border border-blue-gradient dark:border-teal-400 rounded-xl">
+          {/* <div class="flex items-center p-1 border border-blue-gradient dark:border-teal-400 rounded-xl">
             {["PublicLab", "Zulip", "All"].map((item, index) => (
               <button
                 key={index}
@@ -113,10 +113,10 @@ const OpenSource = () => {
                   activeFilter === item ? "bg-teal-400" : ""
                 }`}
               >
-                {item}
-              </button>
-            ))}
-          </div>
+                {item}  
+              </button>    
+            ))} // removing the filter section because I only have 4 items to display lol
+          </div> */}
         </div>
 
         <div className="grid grid-cols-1 justify-center gap-8 mt-8 md:mt-16 md:grid-cols-3 sm:grid-cols-2">
