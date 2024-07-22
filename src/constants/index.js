@@ -342,11 +342,11 @@ export const experiences = [
         duration: "Jan 2024 - May 2023",
         content: [
           {
-            text: "• Developed a web app linking food trucks with event-hosting businesses, featuring a real-time feed for new opportunities.",
+            text: "Developed a web app linking food trucks with event-hosting businesses, featuring a real-time feed for new opportunities.",
             link: "",
           },
           {
-            text: "• Implemented user authentication for food trucks using Django and PostgreSQL.",
+            text: "Implemented user authentication for food trucks using Django and PostgreSQL.",
             link: ""
           }
         ],
@@ -363,11 +363,7 @@ export const experiences = [
         duration: "Jan 2024 - May 2024",
         content: [
           {
-            text: "• Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
-            link: ""
-          },
-          {
-            text: "• Designed an interactive Pygame app to teach high school students coding fundamentals through engaging, simplified concepts.",
+            text: "Designed an interactive Pygame app to teach high school students coding fundamentals through engaging, simplified concepts.",
             link: ""
           }
         ],
@@ -377,17 +373,17 @@ export const experiences = [
         duration: "Sep 2023 - Jan 2024",
         content: [
           {
-            text: "• Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
+            text: "Assisted in the instruction and mentorship of students in introductory courses and foundational projects",
             link: "",
           },
         ],
       },
       {
         title: "Full-Stack Engineer, Intern",
-        duration: "May 2021 - Aug 2022",
+        duration: "May 2023 - Aug 2023",
         content: [
           {
-            text: "• Created GatorAdvisor, an interactive visual roadmap and a dashboard for the computer science department’s all major and minor programs to make it easier to understand and to reduce student course planning time.",
+            text: "Created GatorAdvisor, an interactive visual roadmap and a dashboard for the computer science department’s all major and minor programs to make it easier to understand and to reduce student course planning time.",
             link: "",
           },
         ],
@@ -411,7 +407,7 @@ export const experiences = [
     positions: [
       {
         title: "Software Engineer, Intern",
-        duration: "Apr 2023 - Apr 2024",
+        duration: "Sep 2023 - Jan 2024",
         content: [
           {
             text: "Developed a web scraping tool integrating WordPress with Google Maps API, enhancing place listing accuracy and enabling automated content updates using Node.js, Google Maps API, Postman, and WordPress",
@@ -435,7 +431,7 @@ export const experiences = [
         duration: "May 2022 - Aug 2022",
         content: [
           {
-            text: "•	Spearheaded the minting of 5000 test ARC69 tokens, a pivotal component now driving URECA's carbon credit marketplace, which is the first of its kind to democratize climate action investments",
+            text: "Spearheaded the minting of 5000 test ARC69 tokens, a pivotal component now driving URECA's carbon credit marketplace, which is the first of its kind to democratize climate action investments",
             link: "",
           },
         ],
@@ -447,46 +443,46 @@ export const experiences = [
 export const openSourceContributions = [
   {
     id: "os-1",
-    organisation: "PublicLab",
+    organisation: "GatorEducator",
     logo: publiclab,
-    repo: "plots2",
+    repo: "gatorgrade",
     type: "pull-request",
     status: "merged",
     title:
-      "Move _wiki to old table look, common template for email and settings digest only",
-    link: "https://github.com/publiclab/plots2/pull/10731",
-    number: "#10731",
-    date: "Feb 24 2022",
-    linesAdded: "101",
-    linesDeleted: "48",
+      "Feat: Add a function that parses and sets up shell commands from a YAML file",
+    link: "https://github.com/GatorEducator/gatorgrade/pull/64",
+    number: "#64",
+    date: "May 7 2022",
+    linesAdded: "36",
+    linesDeleted: "1",
   },
   {
     id: "os-2",
-    organisation: "PublicLab",
+    organisation: "GatorEducator",
     logo: publiclab,
-    repo: "plots2",
+    repo: "gatorgrade",
     type: "pull-request",
     status: "merged",
-    title: "Combine templates for email digest and settings digest",
-    link: "https://github.com/publiclab/plots2/pull/10681",
-    number: "#10681",
-    date: "Feb 9 2022",
-    linesAdded: "86",
-    linesDeleted: "106",
+    title: "Feat: Add a function that generates command lines",
+    link: "https://github.com/GatorEducator/gatorgrade/pull/52",
+    number: "#52",
+    date: "May 5 2022",
+    linesAdded: "66",
+    linesDeleted: "0",
   },
   {
     id: "os-3",
-    organisation: "PublicLab",
+    organisation: "Algorithmology",
     logo: publiclab,
-    repo: "plots2",
+    repo: "bosco",
     type: "pull-request",
     status: "merged",
-    title: "Fix reverse chronological sorting on inline grids",
-    link: "https://github.com/publiclab/plots2/pull/11114",
-    number: "#11114",
-    date: "May 4 2022",
-    linesAdded: "1",
-    linesDeleted: "1",
+    title: "Feat: Add list-processing algorithms",
+    link: "https://github.com/Algorithmology/bosco/pull/28",
+    number: "#28",
+    date: "Apr 28 2024",
+    linesAdded: "468",
+    linesDeleted: "19",
   },
   {
     id: "os-4",
@@ -502,146 +498,6 @@ export const openSourceContributions = [
     linesAdded: "64",
     linesDeleted: "8",
   },
-  {
-    id: "os-5",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Typos in Translation_System.md",
-    link: "https://github.com/publiclab/plots2/issues/11120",
-    number: "#11120",
-    date: "May 6 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-6",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translations on layouts/_header.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/11115",
-    number: "#11115",
-    date: "May 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-7",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Missing translation of 'This is part of' on _tagging.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10986",
-    number: "#10986",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-8",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Wrong closing heading tag in _digest.html.erb",
-    link: "https://github.com/publiclab/plots2/issues/10985",
-    number: "#10985",
-    date: "Apr 8 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-9",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Add class to center wiki.scraped_image in wikis template",
-    link: "https://github.com/publiclab/plots2/issues/10797",
-    number: "#10797",
-    date: "Mar 18 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-10",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "issue",
-    status: "closed",
-    title: "Images on /wiki are not center aligned",
-    link: "https://github.com/publiclab/plots2/issues/10755",
-    number: "#10755",
-    date: "Mar 4 2022",
-    linesAdded: "",
-    linesDeleted: "",
-  },
-  {
-    id: "os-11",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-12",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "invitations: Check invitation from a now-deactivated user.",
-    link: "https://github.com/zulip/zulip/pull/20206",
-    number: "#20206",
-    date: "Dec 30 2021",
-    linesAdded: "31",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-13",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "authentication: Fix placeholder realms for redirects.",
-    link: "https://github.com/zulip/zulip/pull/19689",
-    number: "#19689",
-    date: "Sep 9 2021",
-    linesAdded: "1",
-    linesDeleted: "1",
-  },
-  {
-    id: "os-14",
-    organisation: "Zulip",
-    logo: zulip,
-    repo: "zulip",
-    type: "pull-request",
-    status: "merged",
-    title: "message_editing : Fix topic edit propagate option cut-off",
-    link: "https://github.com/zulip/zulip/pull/19760",
-    number: "#19760",
-    date: "Feb 10 2022",
-    linesAdded: "9",
-    linesDeleted: "8",
-  },
 ];
 
 export const projects = [
@@ -652,7 +508,7 @@ export const projects = [
     link: "https://comicify-ai.vercel.app/",
     image: comicify_ai,
     content:
-      "• Econometric research that determines the influence of macroeconomic variables on Layoff trends <br> using Vector Autoregression (VAR) models and impulse response (IRF) analysis to assess the impact of interest rate, inflation, and industrial production on layoffs, contributing to strategic business planning",
+      "Econometric study using Vector Autoregression (VAR) models and impulse response analysis to explore how interest rates, inflation, and industrial production affect layoff trends in Tech",
     stack: [
       {
         id: "icon-1",
@@ -805,191 +661,6 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
 ];
 
 export const blogPosts = [
@@ -1083,7 +754,7 @@ export const extraCurricular = [
     duration: "December 2021 - Present",
     content: [
       {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
+        text: "Winterland 2023 Champions, Erie PA    |    2nd Place at HighTide 2023",
         link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
       },
       {
