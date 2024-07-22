@@ -432,7 +432,7 @@ export const experiences = [
     ],
   },
   {
-    organisation: "URECA LLC",
+    organisation: "URECA",
     logo: ureca,
     link: "Ureca.com",
     positions: [
