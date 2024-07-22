@@ -499,32 +499,27 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Research Paper: \n How do macroeconomic indicators affect Layoffs?",
+    title: "Research Paper: How do macroeconomic indicators affect Layoffs?",
     github: "https://github.com/ayush4345/Comicify.ai",
     link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    image: paper,
     content:
       "Econometric study using Vector Autoregression (VAR) models and impulse response analysis to explore how interest rates, inflation, and industrial production affect layoff trends in Tech",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "Stata"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
+        icon: SiTableau,
         name: "Tableau"
       },
       {
-        id: "icon-3",
-        icon: SiOpenai,
+        id: "icon-2",
+        icon: SiPython,
         name: "Python"
       },
       {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Testing Stuff"
+        id: "icon-3",
+        icon: SiStreamlit,
+        name: "Streamlit"
       },
     ],
   },
@@ -533,40 +528,26 @@ export const projects = [
     title: "Statistical Analysis: How do Household metrics affect Alcohol consumption?",
     github: "https://github.com/mittal-parth/GreenTrust",
     link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    image: paper,
     content:
       "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
     stack: [
       {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiRstudio,
+        name: "Rstudio"
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
+        icon: RiFileExcel2Line,
+        name: "Excel"
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiTableau,
+        name: "Tableau"
       },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
+
     ],
   },
   {
@@ -574,12 +555,12 @@ export const projects = [
     title: "Live-Chat-Box",
     github: "https://github.com/tuduun/LiveChatBox",
     link: "https://tuduun.github.io/LiveChatBox/",
-    image: chargeswap,
+    image: twitch,
     content:
       "Real-time chat application powered by Express and WebSockets creating scalable user management, and a seamless chatting experience",
     stack: [
       {
-        id: "icon-3",
+        id: "icon-1",
         icon: SiJavascript,
         name: "JavaScript"
       },
@@ -589,71 +570,9 @@ export const projects = [
         name: "HTML"
       },
       {
-        id: "icon-4",
+        id: "icon-3",
         icon: DiCss3,
         name: "CSS"
-      },
-     
-      {
-        id: "icon-11",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
       },
     ],
   },
