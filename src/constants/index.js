@@ -399,11 +399,11 @@ export const experiences = [
         ],
       },
       {
-        title: "Pelletier Librayr HelpDesk",
+        title: "Pelletier Library HelpDesk",
         duration: "Aug 2022 - Aug 2023",
         content: [
           {
-            text: "Scanned books in and out for patreons, was responsible for opening and closing the library",
+            text: "Scanned books in and out for patrons, was responsible for opening and closing the library",
             link: "",
           },
         ],
@@ -745,32 +745,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/tugi",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/tuduun",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "tuduun@gmail.com",
   },
 ];
 
 export const aboutMe = {
-    name: "Tuguldur G.",
+    name: "Tuguldur Gantulga",
     tagLine: "Software Engineer | Economist | Allegheny College Alumni",
-    intro: "A life long knowledge seeker and technology enthusiast."
+    intro: "A life long leaner and technology enthusiast."
 }
