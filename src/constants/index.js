@@ -106,8 +106,8 @@ import { RiFileExcel2Line } from "react-icons/ri";
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/drive/u/0/folders/17-p1NOOsfdKJtJPyV7qAIPm9W33bAnoa";
-export const repoLink = "https://github.com/tuduun";
+export const resumeLink = "https://drive.google.com/file/d/1mVC1BR02xEqMRlim18tZFjc28z6SP1iY/view";
+export const repoLink = "https://github.com/tuduun/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/tugi";
 
