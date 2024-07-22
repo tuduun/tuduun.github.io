@@ -454,7 +454,7 @@ export const openSourceContributions = [
   {
     id: "os-1",
     organisation: "GatorEducator",
-    logo: publiclab,
+    logo: gatoreducator,
     repo: "gatorgrade",
     type: "pull-request",
     status: "merged",
@@ -469,7 +469,7 @@ export const openSourceContributions = [
   {
     id: "os-2",
     organisation: "GatorEducator",
-    logo: publiclab,
+    logo: gatoreducator,
     repo: "gatorgrade",
     type: "pull-request",
     status: "merged",
@@ -483,7 +483,7 @@ export const openSourceContributions = [
   {
     id: "os-3",
     organisation: "Algorithmology",
-    logo: publiclab,
+    logo: algorithmology,
     repo: "bosco",
     type: "pull-request",
     status: "merged",
@@ -493,21 +493,7 @@ export const openSourceContributions = [
     date: "Apr 28 2024",
     linesAdded: "468",
     linesDeleted: "19",
-  },
-  {
-    id: "os-4",
-    organisation: "PublicLab",
-    logo: publiclab,
-    repo: "plots2",
-    type: "pull-request",
-    status: "merged",
-    title: "style: Make post page footer responsive",
-    link: "https://github.com/publiclab/plots2/pull/10634",
-    number: "#10634",
-    date: "Feb 24 2022",
-    linesAdded: "64",
-    linesDeleted: "8",
-  },
+  }
 ];
 
 export const projects = [
