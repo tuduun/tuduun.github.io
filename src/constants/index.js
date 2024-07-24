@@ -1,4 +1,7 @@
 import {
+  analysis,
+  amsa,
+  gatorgrade,
   gatoreducator,
   algorithmology,
   paper,
@@ -36,7 +39,7 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
 } from "../assets";
 
 import {
@@ -85,28 +88,21 @@ import {
   SiMicrosoftazure,
   SiTableau,
   SiStreamlit,
-  SiRstudio
+  SiRstudio,
 } from "react-icons/si";
 
-import {
-  FaHardHat,
-  FaRust
-} from "react-icons/fa";
+import { FaHardHat, FaRust } from "react-icons/fa";
 
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
+import { IoIosNotificationsOutline } from "react-icons/io";
 
-import {
-  FaGolang
-} from "react-icons/fa6";
+import { FaGolang } from "react-icons/fa6";
 
 import { RiFileExcel2Line } from "react-icons/ri";
 
-
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1mVC1BR02xEqMRlim18tZFjc28z6SP1iY/view";
+export const resumeLink =
+  "https://drive.google.com/file/d/1mVC1BR02xEqMRlim18tZFjc28z6SP1iY/view";
 export const repoLink = "https://github.com/tuduun/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/tugi";
@@ -151,92 +147,83 @@ export const educationList = [
     degree: "Bachelor of Arts in Economics",
     duration: "Aug 2020 - May 2024",
     content1: "GPA: 3.6",
-
   },
 ];
 
 export const achievements = [
   {
     id: "a-1",
-    icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+    icon: amsa,
+    event:
+      "AMSA ACT Hackathon '21 | Association of Mongolian Students in America",
+    position: "2nd place",
+    content1:
+      "Built AmsaGuide, a mentor-connecting website using Vue.js and Firebase",
+    content2: "Placed 2nd out of 10 teams that attended",
+    article: "https://www.amsa.mn/",
+    project: "https://guide-sign.web.app/",
+    github: "https://github.com/tsenguunchik/act2021-team2",
   },
   {
     id: "a-2",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    github: "https://github.com/pranav2305/GreenTrust",
+    icon: alleghenycollege1,
+    event: "Allegheny College |    Credly Certification",
+    position: "Software Development with Python",
+    content1:
+      "Introduces essential knowledge and skills for engineering, releasing, and maintaining software using Python.",
+    content3:
+      "Demonstrated the ability to contribute high-quality updates to source code.",
+    project:
+      "https://www.credly.com/badges/99514de9-6b3b-46f6-947d-045679552742",
   },
   {
     id: "a-3",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
+    icon: alleghenycollege1,
+    event: "Allegheny College |    Credly Certification",
+    position: "Programming with Web Technologies",
+    content1:
+      "Provides knowledge and skills needed to benchmark, maintain, and enhance websites.",
+    content3:
+      "Developed accessible, aesthetically pleasing, and well-organized websites and web applications.",
+    project:
+      "https://www.credly.com/badges/76eccd60-8764-4f9d-99e3-73a2363b06ab",
   },
   {
     id: "a-4",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
+    icon: alleghenycollege1,
+    event: "Alden Scholar Award",
+    position: " Dean's List (2021 - 2024)",
+    content1:
+      "The Alden Scholar distinction at Allegheny College honors students who demonstrate exceptional academic achievement and intellectual engagement, maintaining a high GPA and actively contributing to scholarly activities.",
     content2: "",
     content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
   },
   {
     id: "a-5",
     icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
+    event: "Winter League | Erie Ultimate Frisbee '23",
+    position: "1st place",
+    content1: "Top 1 among 20 teams in Erie, PA",
+    content2:
+      "Engaged in a team sport",
     content3: "",
-    article: "https://shorturl.at/exEIQ",
   },
   {
     id: "a-6",
     icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
+    event: "High Tide '23",
+    position: "2nd place in Mixed Division",
+    content1:
+      "2nd place among D1 and D2 colleges ultimate frisbee teams in the mixed division",
     content2: "",
     content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-7",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
-  },
+  }
 ];
-
 
 export const skills = [
   {
     title: "Programming Languages",
     items: [
-     
       {
         id: "pl-2",
         icon: SiPython,
@@ -261,7 +248,7 @@ export const skills = [
         id: "pl-11",
         icon: SiSolidity,
         name: "Solidity",
-      }
+      },
     ],
   },
   {
@@ -357,8 +344,8 @@ export const experiences = [
           },
           {
             text: "Implemented user authentication for food trucks using Django and PostgreSQL.",
-            link: ""
-          }
+            link: "",
+          },
         ],
       },
     ],
@@ -374,8 +361,8 @@ export const experiences = [
         content: [
           {
             text: "Designed an interactive Pygame app to teach high school students coding fundamentals through engaging, simplified concepts.",
-            link: ""
-          }
+            link: "",
+          },
         ],
       },
       {
@@ -447,7 +434,7 @@ export const experiences = [
         ],
       },
     ],
-  }
+  },
 ];
 
 export const openSourceContributions = [
@@ -493,15 +480,15 @@ export const openSourceContributions = [
     date: "Apr 28 2024",
     linesAdded: "468",
     linesDeleted: "19",
-  }
+  },
 ];
 
 export const projects = [
   {
     id: "project-1",
     title: "Research Paper: How do macroeconomic indicators affect Layoffs?",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    github: "https://github.com/ReadyResearchers-2023-24/Tugi-Artifact",
+    link: "https://drive.google.com/file/d/1R70gCThri7am5STw8PbhkX3Js2mM6TGG/view",
     image: paper,
     content:
       "Econometric study using Vector Autoregression (VAR) models and impulse response analysis to explore how interest rates, inflation, and industrial production affect layoff trends in Tech",
@@ -509,45 +496,18 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiTableau,
-        name: "Tableau"
+        name: "Tableau",
       },
       {
         id: "icon-2",
         icon: SiPython,
-        name: "Python"
+        name: "Python",
       },
       {
         id: "icon-3",
         icon: SiStreamlit,
-        name: "Streamlit"
+        name: "Streamlit",
       },
-    ],
-  },
-  {
-    id: "project-2",
-    title: "Statistical Analysis: How do Household metrics affect Alcohol consumption?",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: paper,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "icon-2",
-        icon: SiRstudio,
-        name: "Rstudio"
-      },
-      {
-        id: "icon-3",
-        icon: RiFileExcel2Line,
-        name: "Excel"
-      },
-      {
-        id: "icon-4",
-        icon: SiTableau,
-        name: "Tableau"
-      },
-
     ],
   },
   {
@@ -562,18 +522,76 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiJavascript,
-        name: "JavaScript"
+        name: "JavaScript",
       },
       {
         id: "icon-2",
         icon: AiFillHtml5,
-        name: "HTML"
+        name: "HTML",
       },
       {
         id: "icon-3",
         icon: DiCss3,
-        name: "CSS"
+        name: "CSS",
       },
+    ],
+  },
+  {
+    id: "project-4",
+    title: "GatorGrader: Automatic Grading Tool",
+    github: "https://github.com/GatorEducator/gatorgrade",
+    link: "https://pypi.org/project/gatorgrade/",
+    image: gatorgrade,
+    content:
+      "Directly contributed and enhanced the GatorGrade, a Python tool on PyPI , providing 300+ students with automated and consistent grading evaluations through GitHub Actions. Built an algorithm that parses and edits YML files for shell commands and GatorGrade checks (Python, Pytest)",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiPython,
+        name: "Python",
+      },
+    ],
+  },
+  {
+    id: "project-2",
+    title:
+      "Statistical Analysis: How do Household metrics affect Alcohol consumption?",
+    link: "https://drive.google.com/file/d/1mWPQx5ejS8XNehBIXyOeoNhUjinEa6z4/view",
+    image: analysis,
+    content:
+      "Analyzed U.S. Consumer Expenditure Survey data through regression analysis and authored a report demonstrating the societal impact of the data, advocating for equitable healthcare with data-driven insights. Highlighted that individuals with college degrees spend $28 more on alcohol compared to those without a high school diploma.",
+    stack: [
+      {
+        id: "icon-2",
+        icon: SiRstudio,
+        name: "Rstudio",
+      },
+      {
+        id: "icon-3",
+        icon: RiFileExcel2Line,
+        name: "Excel",
+      },
+      {
+        id: "icon-4",
+        icon: SiTableau,
+        name: "Tableau",
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title:
+      "Statistical Analysis: Socioeconomic Determinants of Global Happiness?",
+    github: "https://github.com/CMPSC-301-Allegheny-College-Spring-2023/final-project-grays-team/blob/main/writing/reflection.md",
+    image: analysis,
+    content:
+      "I analyzed global happiness data using linear regression to identify key determinants such as GDP per capita, freedom, generosity, and social support, thereby enhancing the understanding of socioeconomic impacts on well-being. Additionally, I created visualizations in R for over 100 countries, demonstrating that a one percent increase in GDP per capita correlates with a 0.2 increase in the happiness index.",
+    stack: [
+      {
+        id: "icon-2",
+        icon: SiRstudio,
+        name: "Rstudio",
+      }
     ],
   },
 ];
@@ -588,15 +606,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -609,15 +627,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -630,15 +648,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -755,12 +773,12 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "tuduun@gmail.com",
+    link: "mailto:tuduun@gmail.com",
   },
 ];
 
 export const aboutMe = {
-    name: "Tuguldur Gantulga",
-    tagLine: "Software Engineer | Economist | Allegheny College Alumni",
-    intro: "A life long leaner and technology enthusiast."
-}
+  name: "Tuguldur Gantulga",
+  tagLine: "Software Engineer | Economist | Allegheny College Alumni",
+  intro: "A life long leaner and technology enthusiast.",
+};
