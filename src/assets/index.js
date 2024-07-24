@@ -1,5 +1,5 @@
 import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./profile-pic.jpeg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -57,8 +57,14 @@ import paper from "./paper.png"
 import twitch from "./twittch.jpg"
 import algorithmology from "./algorithmology.png"
 import gatoreducator from "./gatoreducator.png"
+import gatorgrade from "./gatorgrade.png"
+import amsa from "./amsa.jpg"
+import analysis from "./analysis1.png"
 
 export {
+  analysis,
+  amsa,
+  gatorgrade,
   algorithmology,
   gatoreducator,
   paper,
