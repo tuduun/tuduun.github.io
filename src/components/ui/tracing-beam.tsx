@@ -27,7 +27,7 @@ export const TracingBeam = ({
 
   useEffect(() => {
     if (contentRef.current) {
-      setSvgHeight(contentRef.current.offsetHeight + 100);
+      setSvgHeight(contentRef.current.offsetHeight - 200);
     }
   }, []);
 
@@ -72,9 +72,9 @@ export const TracingBeam = ({
             }}
             animate={{
               backgroundColor:
-                scrollYProgress.get() > 0 ? "white" : "var(--emerald-500)",
+                scrollYProgress.get() > 0 ? "white" : "#34D399",
               borderColor:
-                scrollYProgress.get() > 0 ? "white" : "var(--emerald-600)",
+                scrollYProgress.get() > 0 ? "white" : "#2C7A7B",
             }}
             className="h-2 w-2  rounded-full border border-neutral-300 bg-white"
           />
@@ -82,7 +82,7 @@ export const TracingBeam = ({
         <svg
           viewBox={`0 0 20 ${svgHeight}`}
           width="20"
-          height={svgHeight - 250} // Set the SVG height
+          height={svgHeight} // Set the SVG height
           className=" ml-4 block"
           aria-hidden="true"
         >
