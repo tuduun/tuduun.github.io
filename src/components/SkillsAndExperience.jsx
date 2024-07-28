@@ -100,7 +100,7 @@ const ExperienceCard = (props) => {
 const SkillsAndExperience = () => {
   return (
     <section id="skills" className="mb-12">
-      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px] mt-16">
+      <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px] mt-24">
         Skills & Experience
       </h1>
       <div
