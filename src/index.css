@@ -211,9 +211,9 @@
 }
 
 .lottie-container {
-  min-height: 75vh; /* Set a minimum height */
+  min-height: 32vh; /* Set a minimum height */
   min-width: 32vw; /* Set a minimum width */
-  height: 80%; /* Takes 90% of the parent's height */
+  height: 85%; /* Takes 90% of the parent's height */
   width: 85%; /* Takes 85% of the parent's width */
   position: relative; /* Relative positioning for context */
   z-index: 5; /* Stacking context */
