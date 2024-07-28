@@ -43,7 +43,7 @@ const Achievements = () => {
       className="relative z-[0] bg-primary overflow-hidden text-white mt-5 md:mt-10 relative"
       id="achievements"
     >
-      <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+      <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}  sm:px-4`}>
         <div className={`${styles.boxWidth}`}>
           <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
             Achievements
